@@ -6,7 +6,7 @@ function createHome() {
     bedImg.src = "images/bed.jpg";
     bedImg.alt = "White bed";
 
-    home.appendChild(createHeading("The Resty Restaurant"));
+    //home.appendChild(createHeading("The Resty Restaurant"));
     home.appendChild(bedImg);
     home.appendChild(createParagraph(`The new hit craze in 
         restaurants - a place you can go to satisfy that sleepy 
