@@ -1,0 +1,32 @@
+body {
+    background-color: #fbfaf5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.button-nav {
+    padding: 10px;
+}
+
+nav {
+    padding: 5px;
+}
+
+button {
+    border-style: none;
+}
+
+footer {
+    padding: 100px;
+}

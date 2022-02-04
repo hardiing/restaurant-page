@@ -3,13 +3,13 @@ function createContact() {
     contact.classList.add("contact");
 
     const phoneNumber = document.createElement("p");
-    phoneNumber.textContent = "111 222 3333";
+    phoneNumber.textContent = "Call us at 111-222-3333";
 
     const address = document.createElement("p");
-    address.textContent = "The Tents #99, Fort Collins, CO";
+    address.textContent = "Find us at The Tents #99, Fort Collins, CO";
 
     const email = document.createElement("p");
-    email.textContent = "ripvanwinkle@resty.com";
+    email.textContent = "Email us at ripvanwinkle@resty.com";
 
     contact.appendChild(phoneNumber);
     contact.appendChild(address);

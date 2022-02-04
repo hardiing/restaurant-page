@@ -3,13 +3,13 @@ function createMenu() {
     menu.classList.add("menu");
 
     menu.appendChild(createItem("Sleeping Bag",
-        "Warm sleeping bag. One pillow"));
+        "Warm sleeping bag. One pillow."));
 
     menu.appendChild(createItem("Cot",
-        "Small, single cot. One pillow"));
+        "Small, single cot. One pillow."));
 
     menu.appendChild(createItem("Bed",
-        "Double bed. Two pillows"));
+        "Double bed. Two pillows."));
 
     return menu;
 }

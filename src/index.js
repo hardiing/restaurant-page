@@ -72,10 +72,23 @@ function createMain() {
     return main;
 }
 
+function createFooter() {
+    const footer = document.createElement("footer");
+    footer.classList.add("footer");
+
+    const copyright = document.createElement("p");
+    copyright.textContent = `© ${new Date().getFullYear()} Nathan Harding`;
+
+    footer.appendChild(copyright);
+
+    return footer;
+}
+
 function loadPage() {
     const page = document.getElementById("content");
     page.appendChild(createHeader());
     page.appendChild(createMain());
+    page.appendChild(createFooter());
 
     setActiveButton(document.querySelector(".button-nav"));
     loadHome();
